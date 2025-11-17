@@ -5,8 +5,8 @@ pluginManagement {
                 includeGroupByRegex("com\\.android.*")
                 includeGroupByRegex("com\\.google.*")
                 includeGroupByRegex("androidx.*")
-                // This line is added to allow the KSP plugin
-                includeGroupByRegex("com\\.google\\.devtools.*")
+                // The line that was here ("includeGroupByRegex...") was the
+                // cause of the "plugin not found" error and has been removed.
             }
         }
         mavenCentral()

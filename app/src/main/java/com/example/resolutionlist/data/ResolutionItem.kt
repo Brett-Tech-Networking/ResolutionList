@@ -1,6 +1,6 @@
 package com.example.resolutionlist.data
 
-import androidxTo.room.Entity
+import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity(tableName = "resolutions")
